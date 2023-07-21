@@ -1,6 +1,7 @@
 # DevCamper API
 
 >Backend API for DevCamper application, which is a bootcamp directory website
+- Link for Postman documentation : https://documenter.getpostman.com/view/21117072/2s946k7X7V
 
 
 ## Usage
@@ -20,5 +21,17 @@ npm run dev
 # Run in prod mode
 npm start
 ```
+
+### Database Seeder
+To seed the database with users, bootcamps, courses and reviews with data from the "_data" folder, run
+
+```
+# Destroy all data
+node seeder -d
+
+# Import all data
+node seeder -i
+```
+
 - Version : 1.0.0
 - Licence : MIT
